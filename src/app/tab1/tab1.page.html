@@ -1,17 +1,44 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      LIVROS FÍSICOS
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar showCancelButton="focus" cancelButtonText="Custom Cancel" placeholder="Procure seu livro aqui"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://th.bing.com/th/id/R.5b5b24cb3e897c2ad3fd73d5a99df451?rik=JI%2bJX%2fwTFrflWg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-h10g_q2V4tw%2fVXn3Oa19L9I%2fAAAAAAAAAEQ%2f49jZFOReki0%2fs1600%2flivro%2bdom%2bcasmurro%2b6.jpg&ehk=CqC3Z2batxF0hbh3Y%2f%2fWqePXq%2fWKyQj7TMtWBCIjxc8%3d&risl=&pid=ImgRaw&r=0">
+    </ion-thumbnail>
+    <ion-label>Dom casmurro - Machado de Assis</ion-label>
+    <ion-badge color="light">R$ 99.00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/413-A4dbSeL._SY344_BO1,204,203,200_QL70_.jpg">
+    </ion-thumbnail>
+    <ion-label>Amor gelado - Jenna Evans Welch</ion-label>
+    <ion-badge color="light">R$ 84,43</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://th.bing.com/th/id/OIP.iS6kTLsBoxT1bwd5sj_VRAHaK2?pid=ImgDet&rs=1">
+    </ion-thumbnail>
+    <ion-label>Quem pensa enriquece - Robert Kiyosaki</ion-label>
+    <ion-badge color="light"> R$ 44,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://th.bing.com/th/id/R.394d0b61344f523f39ecb76a108b7e7a?rik=ugez%2blEhktYtSg&riu=http%3a%2f%2fi.mlcdn.com.br%2f1500x1500%2fas-cinco-linguagens-do-amormundo-cristao-084974100.jpg&ehk=PbKiXDaqsI%2b3hb3gtgRb7D2UQ1HXfe%2f61iuNd2I5Rdc%3d&risl=&pid=ImgRaw&r=0">
+    </ion-thumbnail>
+    <ion-label>As cinco linguagens do amor - Gary Chapman</ion-label>
+    <ion-badge color="light">R$ 85,45</ion-badge>
+  </ion-item>
+
 </ion-content>
